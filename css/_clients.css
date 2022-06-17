@@ -1,0 +1,29 @@
+.clients {
+	padding: 50px 0;
+}
+.clients__container {
+}
+.clients__list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 0 15px;
+}
+.clients__item {
+	flex: 0 1 16.667%;
+	padding: 8px 15px;
+	min-width: 140px;
+}
+.clients-item {
+}
+.clients-item__image {
+}
+.clients-item__image img {
+	max-width: 100%;
+}
+@media (max-width: 992) {
+	.clients {
+		padding: 20px 0;
+	}
+}
