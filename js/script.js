@@ -14,3 +14,13 @@ menuBtn.addEventListener('click', function () {
 		})
 	}
 })
+
+/*--- Спойлер ---*/
+const spoilerBtns = document.querySelectorAll('.footer-menu__title');
+const spoilerBoxes = document.querySelectorAll('.footer-menu');
+
+spoilerBtns.forEach(function (item) {
+	item.addEventListener("click", function () {
+
+	})
+})

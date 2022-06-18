@@ -1,3 +1,137 @@
 /*----Footer-------------------------------------------------*/
 .footer {
 }
+.footer__top {
+}
+.footer-top {
+	padding: 35px 0;
+	background: #17213c;
+}
+.footer-top__container {
+}
+.footer-top__body {
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-top__menu {
+	padding: 15px;
+}
+.footer-menu {
+}
+.footer-menu__title {
+	letter-spacing: 0.1px;
+	font-size: 16px;
+	line-height: 150%;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.footer-menu__list {
+}
+.footer-menu__item {
+	font-weight: 600;
+	line-height: 171%;
+}
+.footer-menu__item:not(:last-child) {
+	margin-bottom: 10px;
+}
+.footer-menu__link {
+}
+.footer-menu__link:hover {
+	text-decoration: underline;
+}
+.footer-contact {
+}
+.footer-contact__title {
+}
+.footer-contact__list {
+}
+.footer-contact__item {
+	font-weight: 600;
+}
+.footer-contact__item:not(:last-child) {
+	margin-bottom: 10px;
+}
+.footer-contact__link {
+	padding-left: 34px;
+	line-height: 171%;
+	display: inline-block;
+	min-height: 30px;
+}
+.footer-contact__link:hover {
+	text-decoration: underline;
+}
+.footer-contact__phone {
+	background: url("../img/footer/tel.svg") 0 0 no-repeat;
+}
+.footer-contact__map {
+	background: url("../img/footer/map.svg") 0 0 no-repeat;
+}
+.footer-contact__mail {
+	background: url("../img/footer/mail.svg") 0 0 no-repeat;
+}
+.footer__bottom {
+}
+.footer-bottom {
+}
+.footer-bottom__container {
+}
+.footer-bottom__body {
+}
+.footer-botom__copy {
+}
+.footer-bottom__social {
+}
+.footer-social__list {
+}
+.footer-social__item {
+}
+.footer-sosial__link {
+}
+@media (max-width: 992px) {
+	.footer-top__body {
+		flex-wrap: wrap;
+	}
+	.footer-menu {
+		flex: 0 1 50%;
+	}
+}
+@media (max-width: 768px) {
+	.footer-menu {
+		flex: 1 1 100%;
+	}
+	.footer-contact {
+		flex: 1 1 100%;
+	}
+	.footer-menu__title {
+		position: relative;
+		display: flex;
+	}
+	.footer-menu__title:before {
+		content: "";
+		position: absolute;
+		display: block;
+		height: 3px;
+		width: 25px;
+		background: #fff;
+		top: 50%;
+		right: 0;
+		transform: rotate(90deg);
+	}
+	.footer-menu__title:after {
+		content: "";
+		position: absolute;
+		display: block;
+		height: 3px;
+		width: 25px;
+		background: #fff;
+		top: 50%;
+		right: 0;
+	}
+	.footer-menu__list {
+		display: none;
+	}
+}
+.active {
+	display: block;
+}
