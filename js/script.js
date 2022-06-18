@@ -16,11 +16,16 @@ menuBtn.addEventListener('click', function () {
 })
 
 /*--- Спойлер ---*/
-const spoilerBtns = document.querySelectorAll('.footer-menu__title');
+const spoilerBtns = document.querySelectorAll('[data-title]');
 const spoilerBoxes = document.querySelectorAll('.footer-menu');
 
 spoilerBtns.forEach(function (item) {
 	item.addEventListener("click", function () {
-
+		item.classList.toggle('active-title')
+		let tabId = item.dataset.title;
+		let box = document.querySelector('#' + tabId);
+		console.log(box);
+		box.classList.toggle('active')
 	})
+
 })
